@@ -10,6 +10,8 @@ import requests
 import numpy as np
 from  PIL import Image
 !pip install -r requirements.txt && ./setup.sh
+import subprocess
+subprocess.call(['sh', './setup.sh'])
 
 def load_lottieurl(url:str):
     r = requests.get(url)

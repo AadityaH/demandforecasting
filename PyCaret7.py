@@ -1,18 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct  7 10:41:04 2022
-
-@author: Kunal
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 14 15:55:28 2022
-
-@author: Kunal
-"""
-
-
 import pandas as pd
 import streamlit as st
 from pycaret.time_series import *
@@ -24,6 +9,7 @@ import json
 import requests
 import numpy as np
 from  PIL import Image
+pip install -r requirements.txt && ./setup.sh
 
 def load_lottieurl(url:str):
     r = requests.get(url)

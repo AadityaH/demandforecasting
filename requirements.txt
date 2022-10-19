@@ -5,4 +5,4 @@ pycaret==3.0.0rc3
 requests==2.28.1
 streamlit==1.11.1
 streamlit_lottie==0.0.3
-sktime==0.13.2
+sktime==0.11.4
